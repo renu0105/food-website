@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(11, 2, 2);
+}
+
+
+
+#navbar{
+    display: flex;
+
+}
+#logo{
+    margin: 10px 13px;
+    
+}
+#logo img{
+    height: 62px;
+    width: 70px;
+    border-radius: 90%;
+    margin: 3px 14px;
+
+}
+
+#navbar {
+    position: relative;
+    }
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+      text-decoration: none;
+      list-style: none;
+      font-size: 1.2rem;
+
+}
+
+#navbar ul li a{display: block;
+
+    text-decoration: none;
+    margin: 11px;
+    padding: 23px 22px;
+    color: white;
+
+}
+
+#navbar ul li a:hover{
+    background-color: rgb(252, 251, 251);
+    border-radius: 20px;
+    color: rgb(152, 83, 83);
+}
+
+#navbar::before{
+    content: "";
+    background-color:rgb(201, 153, 153);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.home{ 
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+   padding: 12px 12px;  
+    justify-content: center;
+    margin: auto; 
+    
+    background: black ; 
+    opacity: 0.8;
+    
+
+}
+
+.home::before{
+    content: "";
+    background: url('https://cdn.pixabay.com/photo/2017/01/30/13/49/pancakes-2020863__340.jpg')no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    height:100%; 
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    
+}
+
+
+.home h1{
+    font-size:80px;
+    color:rgb(150, 71, 71);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home p{
+    color: white;
+    text-align: center;
+    padding: 10px 60px;
+    font-size: 35px;
+}
+
+.order{
+    display: flex;
+justify-content: center;    
+}
+#address{
+    color: black;
+    border-radius: 5px;
+    padding:10px 12px;
+    padding-bottom: 2px;
+    margin: 15px;
+    font-size:20px;
+    font-weight: 900;
+    
+    
+}
+
+
+
+
+
+#btn{
+    color: black;
+    border-radius: 5px;
+    padding: 2px 50px;
+    font-size: 20px;
+    background-color: cornsilk;
+    margin: 12px;
+    cursor: pointer;
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+
+
+
+#services img{
+    margin: auto;
+    height: 112px;
+    width: 119px;
+    display: block;
+    border-radius: 38%;
+}
+
+#services .box{
+    border: 2px solid saddlebrown;
+    border-radius: 10%;
+    margin: 12px;
+    text-align: center;
+    padding: 12px 12px;
+    background-color: antiquewhite;
+}
+
+#services .box p{
+    font-size: 23px;
+}
+
+
+
+.primary-center{
+    font-size: 69px;
+    padding: 0px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#secondary-center{
+    font-size: 32px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.client-section{
+    height: 344px;
+    position: relative;
+}
+
+.client-section::before{
+    content: "";
+    position: absolute;
+    background: url('https://cdn.pixabay.com/photo/2021/02/26/11/23/man-6051503__340.png')  center  repeat-x  ;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+.clients img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+   
+}
+
+.client-item{
+    
+    padding: 18px;
+    margin: 30px;
+}
+
+
+.contact{
+    position: relative;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+}
+
+.contact::before{
+    content: "";
+    position: absolute;
+     background: url('https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523__340.jpg')no-repeat center center/cover;
+    height:100% ;
+    width:100% ;
+    z-index:-1 ;
+    opacity: 0.4;
+}
+
+
+
+footer{
+    text-align: center;
+    padding: 9px 20px;
+    background-color: black;
+}
+
+.center{
+    color: white;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 30px;
+    width: 500px;
+    font-size: 22px;
+    margin: 7px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-group input{
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.form-group textarea{
+    font-size: 18px;
+    border-radius: 5px;
+}
+.contain{
+ background:  #670a26;;
+}
+
+
+.form{
+padding: 5px;
+margin: auto;
+}
+
+.contact-box{
+    background-color: #0a967f;
+
+}
